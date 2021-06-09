@@ -1,0 +1,6 @@
+rootProject.name = 'spring-boot-upload-csv-file'
+
+include   ':App'
+project(':App').projectDir = new File(settingsDir, '../App')
+
+
